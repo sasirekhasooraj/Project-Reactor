@@ -9,7 +9,7 @@ public class Testdata {
         //.map is an Operator to manipulate the string
         //.log traces the details
         Mono<String> message$ = Mono.just("Welcome to RP")
-                .map(msg -> msg.concat(".com")).log();
+                .map(msg -> msg.concat("rograming")).log();
         message$.subscribe(System.out::println);
 
     }
