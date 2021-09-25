@@ -6,7 +6,7 @@ import java.util.List;
 
 public class Third {
     public static void main(String[] args) {
-        List<Integer> elements = new ArrayList<>();
+      //  List<Integer> elements = new ArrayList<>();
         Flux flux = Flux.just(1,2, 3,4);
 
 
